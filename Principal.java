@@ -35,5 +35,8 @@ public class Principal {
         System.out.println("Nome: " + c2.getNome() + "\nMarca: " + c2.getMarca() 
         + " \nCor: " + c2.getCor() + "\nMotor esta ligado ? - " + c2.isMotorLigado() +
         "\nVelocidade: " + c2.getVelocidade());
+
+        System.out.println("----CARRO 3----");
+        System.out.println("Nome: " + c3.getNome() + "\nMarca: " + c3.getMarca());
+        }
     }
-}
