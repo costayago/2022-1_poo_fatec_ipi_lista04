@@ -17,7 +17,15 @@ public class Carro{
     public Carro(){
         super();
     }
-    
+
+    //construtor com 2 parâmetros 
+    public Carro(String nome, String marca){
+        super();
+        this.nome = nome;
+        this.marca = marca;
+
+    };
+
     public void setNome(String nome){
         this.nome = nome;
     }
